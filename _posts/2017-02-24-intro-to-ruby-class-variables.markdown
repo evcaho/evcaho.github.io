@@ -1,8 +1,15 @@
 ---
+title: "A simple introduction to class variables in Ruby"
 layout: post
-title: A simple introduction to class variables in Ruby
-date:   2017-08-03 13:32:37 -0700
-categories: blog
+date: 2017-02-24 22:44
+headerImage: false
+tag:
+- ruby
+- beginner
+star: false
+category: blog
+author: eviech
+description: A simple introduction to class variables in Ruby
 ---
 
 One thing that confused me for a while was the difference between instance variables and class variables. Instance variables are used across an entire class, right? So shouldn't they be called class variables?
