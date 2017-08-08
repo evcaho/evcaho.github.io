@@ -3,7 +3,7 @@ name: Evie Caldwell-Horne
 bio: Making sense of technology
 
 # twitter summary info
-description: A site about learning programming and dumplings.
+description: Evie Caldwell-Horne's place on the web.
 
 # if it's an external image, update below for true
 # better with square images
@@ -14,7 +14,7 @@ picture: assets/images/evie-profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: /assets/EvieCaldwellHorne_resume.pdf
 
 url: https://koppl.in/indigo
 # your url: http://USERNAME.github.io
@@ -35,7 +35,7 @@ disqus:
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-twitter: mytwitter
+#twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -47,15 +47,15 @@ github: evcaho
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+#medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: evcaldwell@gmail.com
 
 authors:
     eviech:
         name: Evie Caldwell-Horne
-        bio: Dumplings
+        bio: Dumplings are by far the best.
         external-image: false
         picture: assets/images/evie-profile.jpg
         twitter: eviedently
