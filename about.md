@@ -23,7 +23,7 @@ layout: page
 	<li>AngularJS - ReactJS</li>
 	<li>Grunt - Gulp - Yeoman</li>
 	<li>Git</li>
-	<li>PHP</li>
+	<li>JIRA</li>
 	<li>Ruby</li>
 	<li>Rails</li>
 	<li>MySQL - PostgreSQL</li>
@@ -35,9 +35,3 @@ layout: page
 	<li>Classes in web development, Seattle University </li>
 	<li>B.A. in Literary Journalism, University of California, Irvine </li>
 
-<h2>Projects</h2>
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
