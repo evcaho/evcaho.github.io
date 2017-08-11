@@ -15,7 +15,7 @@ From 2011 to 2014, I worked as a technical editor for an environmental consultin
 
 Here's what one of my larger reports looked like when printed (this one was 300 pages, plus ten appendices containing charts, GIS images, and further assessments):
 
-![Image of EECA with ruler](assets/images/EECA.jpg)
+[Image of EECA with ruler](assets/images/EECA.jpg)
 
 At Anchor QEA, I learned how much I loved working with different disciplines to create deliverables that exceeded both client and agency expectations. 
 
