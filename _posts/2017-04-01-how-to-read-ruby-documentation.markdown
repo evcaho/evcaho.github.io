@@ -40,7 +40,7 @@ For example, I may know I need to use the `String#index` method to find the posi
 
 Here's a [link](https://ruby-doc.org/core-2.2.0/String.html#method-i-index) to the documentation for the `String#index` method. Here's what that looks like:
 
-![String#index documentation](http://www.eviech.com/assets/images/string_index_documentation.png)
+![String#index documentation](http://eviech.com/assets/images/string_index_documentation.png "string#index documentation")
 
 Now lets look at each section in turn.
 
