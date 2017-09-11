@@ -12,6 +12,7 @@ author: eviech
 description: Beginners use tutorials while experienced programmers read and refer to documentation. But how do you do that, exactly? This post explains the anatomy of a Ruby doc to help expand your understanding of Ruby.
 ---
 
+
 Trying to go from being a beginner to an intermediate programmer can seem like running toward a constantly moving finish line. Tutorials are helpful, but they can only take you through a set use case, and you still might not understand what's going on under the hood. 
 
 One thing I've noticed: beginners use tutorials while experienced programmers read and refer to documentation. If you're going to move past being a beginner, you need to become comfortable with docs and know how to use them effectively.
