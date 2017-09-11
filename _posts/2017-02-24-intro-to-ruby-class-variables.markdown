@@ -14,7 +14,7 @@ description: A simple introduction to class variables in Ruby
 
 One thing that confused me for a while was the difference between instance variables and class variables. Instance variables are used across an entire class, right? So shouldn't they be called class variables?
 
-Well, no. NOT AT ALL. 
+Well, no. Not at all.
 
 For starters: classes can contain both class and instance variables. Class variables apply to an entire class, whereas instance variables are called on one *instance* of a class (like `Soda.new()`). 
 
@@ -78,7 +78,7 @@ Most Ruby projects are going to use instance variables a heck of a lot more than
 
 Inheritance is best used when your inheriting class or object is a *kind* of the inherited class (like diet soda for soda, or men's pants for clothing) that would contain similar characteristics. 
 
-That said, classes should be as self-contained as possiblem so introducing class variables, with their own pieces of data, can get unwieldy and end up acting as global variables (bad news). So class variables [understandably](http://stackoverflow.com/questions/10594444/class-variables-in-ruby) [get](http://archive.oreilly.com/pub/post/nubygems_dont_use_class_variab_1.html) [a](http://archive.oreilly.com/pub/a/ruby/excerpts/ruby-best-practices/worst-practices.html) [bad](https://railsless.blogspot.com/2013/09/class-variables-on-class-in-ruby.html) rap and are just too hard to control. 
+That said, classes should be as self-contained as possible, so introducing class variables, with their own pieces of data, can get unwieldy and end up acting as global variables (bad news). So class variables [understandably](http://stackoverflow.com/questions/10594444/class-variables-in-ruby) [get](http://archive.oreilly.com/pub/post/nubygems_dont_use_class_variab_1.html) [a](http://archive.oreilly.com/pub/a/ruby/excerpts/ruby-best-practices/worst-practices.html) [bad](https://railsless.blogspot.com/2013/09/class-variables-on-class-in-ruby.html) rap and are just too hard to control. 
 
 [Here's a resource](https://www.sitepoint.com/class-variables-a-ruby-gotcha/) that discusses when to actually use class variables, and [this resource discusses composition](https://learnrubythehardway.org/book/ex44.html), which can be used in place of inheritance. 
 

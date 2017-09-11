@@ -12,15 +12,29 @@ author: eviech
 description: A simple introduction to structs in Ruby.
 ---
 
-I'm working my way through Sandi Metz' *Practical Object-Oriented Design in Ruby* because I find myself making the same clumsy design mistakes in my code. In Chapter 2, she makes use of Ruby structs as a way to bundle data together without having to create an entire class. 
+I've been making a lot of clumsy design mistakes in my code lately, so I'm working my way through Sandi Metz' *Practical Object-Oriented Design in Ruby* to help. In Chapter 2, she uses Ruby structs to bundle data together without creating an entire class. I hadn't heard of structs before and wanted to explore them a little more. 
 
-Imagine that I wanted to create a Person class with only a few attributes. If I wanted to do that as a struct, I can set it up this way: 
+Imagine that I wanted to create a Person class with only a few attributes. Normally, my class would look like this:
+
+```ruby
+class Person
+  attr_accessor :name, :location
+end
+````
+
+Which we can can create an instance of and assign names and locations to those variables:
+
+```ruby
+person = Person.new("evie", "the moon")
+```
+
+But if I wanted to do this as a struct, I'd set it up like this: 
 
 ```ruby
 Person = Struct.new(:name, :location)
 ```
 
-Notice that the parameters (name, location) are written similarly to accessors in classes. 
+Notice that the parameters (name, location) are written similarly to attr_accessors in classes, but there's no `Person` class.
 
 Once I've set up my new `Person` struct, I can create an instance of it, which I'm calling `author`: 
 
@@ -37,7 +51,7 @@ author.name #Evie
 author.location #Washington
 ``` 
 
-## But why?
+## Why use structs?
 Structs can help clean up your code so you don't have to create attr_accessors and an initialize methods for an object that's just a collection of data or attributes.  Here's what `Person` would look like as a class: 
 
 ```ruby
@@ -73,7 +87,7 @@ puts first_person.name #evie
 ```
 
 ## Struct pitfalls and proper usage
-Sandi Metz' argument for using structs is to help structure data and make your code as clean and clear as possible. So how can they be best used? 
+Sandi Metz' argument for using structs is to help structure data and make your code as clean and clear as possible. 
 
 Struct attributes are structured (har har), [whereas you can pass any data into a hash or array](http://culttt.com/2015/04/15/working-with-structs-in-ruby/). They're useful if you know all the attributes of your object. 
 
