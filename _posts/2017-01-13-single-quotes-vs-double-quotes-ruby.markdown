@@ -31,7 +31,7 @@ But which one is better? And does it even matter, especially when you're just be
 
 There are a few reasons why single quotes get touted as "better": they're faster to parse, and there are only two [escape sequences](https://en.wikibooks.org/wiki/Ruby_Programming/Strings#Escape_sequences): for single quotes and a single backslash. The old rule of thumb was to use single quotes unless you were using string interpolation. 
 
-Well, single quotes *are* faster ([as this Viget article points out ](https://www.viget.com/articles/just-use-double-quoted-ruby-strings). The reason is that your computer/the lexer is going to spend time scanning the string for `#{}`. But the difference is really, really small. **Like, statistically insignificant.** 
+Well, single quotes *are* faster ([as this Viget article points out ](https://www.viget.com/articles/just-use-double-quoted-ruby-strings)). The reason is that your computer/the lexer is going to spend time scanning the string for `#{}`. But the difference is really, really small. **Like, statistically insignificant.** 
 
 If you're a relatively new Ruby developer, you probably don't need to worry about speed.
 
