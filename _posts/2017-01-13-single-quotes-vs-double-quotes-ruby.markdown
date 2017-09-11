@@ -12,7 +12,7 @@ author: eviech
 description: 
 ---
 
-In Ruby, strings can be encased in either single or double quotes. Most introductory Ruby books have you begin Ruby using single quotes, but switch to double quotes when you move to [string interpolation](http://ruby-for-beginners.rubymonstas.org/bonus/string_interpolation.html). It's much easier to write out:
+In Ruby, strings can be encased in either single or double quotes. Most introductory Ruby books have you begin coding using single quotes, but switch to double quotes when you move to [string interpolation](http://ruby-for-beginners.rubymonstas.org/bonus/string_interpolation.html). It's much easier to write out:
 
 ```ruby
 num_people = 4 + 5
