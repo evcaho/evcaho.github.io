@@ -26,13 +26,13 @@ Now you're ready to use the Ruby documentation. Head over to [ruby-doc.org](http
 
 Why not just use Stack Overflow? Stack Overflow works as an introduction to a concept, but the questions are usually very specific. Plus, the answer could be too complicated or use that specific class, method, or module differently than you intend to. It might work for you now, but not the next time you need to use it. 
 
-Use StackOverflow as a jumping-off point to get to Ruby docs rather than the final answer unto itself.
+Use StackOverflow as a jumping-off point to get to Ruby docs rather than the final answer.
 
 ## Anatomy of a doc
 
 Nobody expects you to read the Ruby documentation like you would read a book. Use it like a dictionary. 
 
-For example, I may know I need to use the `String#index` method to find the position of a character in a string. So I'll go to the docs looking for **three** pieces of information:
+For example, I may know I need to use the `String#index` method to find the position of a character in a string. So I'll go to the documentation looking for **three** pieces of information:
 
 1. **Arguments:** What type of arguments does the method expect?
 2. **Return Value:** What type of object does it return?
@@ -47,7 +47,7 @@ Now lets look at each section in turn.
 ### Method signatures
 
 
-At the top of the method's documentation, you'll see text like this:
+At the top of the method's documentation you'll see text like this:
 
 ```
 index(substring [, offset]) → fixnum or nil
@@ -73,15 +73,15 @@ The documentation for `String#index` actually has *two* method signatures. This 
 index(regexp [, offset]) → fixnum or nil
 ```
 
-Note that the only difference between the two signatures is the first argument. In the first method signature it was a string. In the second one it's a regular expression i.e. a [regexp](https://ruby-doc.org/core-2.2.0/Regexp.html). 
+The only difference between the two signatures is the first argument. In the first method signature it was a string. In the second one it's a regular expression i.e. a [regexp](https://ruby-doc.org/core-2.2.0/Regexp.html). 
 
-Now, if you were to ask me about `String#index` I could tell you: it requires one argument, either a string or a regular expression. There's an optional second argument. It returns either a number or nil.  
+Now, if you were to ask me about `String#index` I could tell you that it requires one argument, which can be either a string or a regular expression. There's an optional second argument. It returns either a number or nil.  
 
 
 ### The Description
  We now know 'String#index''s inputs and outputs, but we still don't know what it does. 
 
-And if we're being honest, we don't really know what some of the inputs are. For example, I'm not 100% sure what the `offset` argument does. 
+And if we're being honest, we don't **really** know what some of the inputs are. For example, I'm not 100% sure what the `offset` argument does. 
 
 These details are usually cleared up in the description:
 
@@ -105,4 +105,4 @@ Use the examples and the descriptions as a way to understand the concept while u
 
 ## Bottom line
 
-I hope this post helped make sense of how to approach RubyDocs to help you move from tutorials to documentation. Once you know how to approach RubyDocs, your understanding of applying your Ruby knowledge will grow. 
+I hope this helped make sense of how to approach RubyDocs to help you move from tutorials to documentation. 
