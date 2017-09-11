@@ -25,11 +25,11 @@ num_people = 4 + 5
 'There are ' + num_people + ' people going to the fair.'
 ```
 
-But which one is better? And does it even matter, especially when you're starting out?
+But which one is better? And does it even matter, especially when you're just beginning to code?
 
 ### Speed vs. *Speed*
 
-There are a few reasons why single quotes get touted as "better": they're faster to parse, there are less escape sequences (for single quotes and a single backslash). The old rule of thumb was to use single quotes unless using string interpolation. 
+There are a few reasons why single quotes get touted as "better": they're faster to parse, and there are only two [escape sequences](https://en.wikibooks.org/wiki/Ruby_Programming/Strings#Escape_sequences): for single quotes and a single backslash. The old rule of thumb was to use single quotes unless you were using string interpolation. 
 
 Well, single quotes *are* faster ([as this Viget article points out ](https://www.viget.com/articles/just-use-double-quoted-ruby-strings). The reason is that your computer/the lexer is going to spend time scanning the string for `#{}`. But the difference is really, really small. **Like, statistically insignificant.** 
 
@@ -37,7 +37,7 @@ If you're a relatively new Ruby developer, you probably don't need to worry abou
 
 But there's another speed we haven't discussed: **yours**. 
 
-Single quotes require you to ask yourself if you're going to use string interpolation now or down the road. If your answer changes, editing the code is harder and leaves more room for error. Plus, the single quote escape sequence (`\'`) is going to be used more often than double quotes because we use single quotes a lot more in written language than double (remember apostrophes?). There may be more [escape sequences with double quotes] (https://en.wikibooks.org/wiki/Ruby_Programming/Strings#Double_quotes), but they're used less often.
+Single quotes require you to ask yourself if you're going to use string interpolation now or down the road. If your answer changes, editing the code is harder and leaves more room for error. Plus, the single quote escape sequence (`\'`) is going to be used more often than double quotes because we use single quotes a lot more in written language than double because of things like apostraphes. There may be more [escape sequences with double quotes] (https://en.wikibooks.org/wiki/Ruby_Programming/Strings#Double_quotes), but they're used less often.
 
 ### Bottom Line
 
