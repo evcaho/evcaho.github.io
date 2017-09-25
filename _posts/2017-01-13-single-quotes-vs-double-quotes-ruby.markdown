@@ -37,7 +37,7 @@ If you're a relatively new Ruby developer, you probably don't need to worry abou
 
 But there's another speed we haven't discussed: **yours**. 
 
-Single quotes require you to ask yourself if you're going to use string interpolation now or down the road. If your answer changes, editing the code is harder and leaves more room for error. Plus, the single quote escape sequence (`\'`) is going to be used more often than double quotes because we use single quotes a lot more in written language than double because of things like apostraphes. There may be more [escape sequences with double quotes] (https://en.wikibooks.org/wiki/Ruby_Programming/Strings#Double_quotes), but they're used less often.
+Single quotes require you to ask yourself if you're going to use string interpolation now or down the road. If your answer changes, editing the code is harder and leaves more room for error. Plus, the single quote escape sequence (`\'`) is going to be used more often than double quotes because we use single quotes a lot more in written language than double because of things like apostrophes. There may be more [escape sequences with double quotes] (https://en.wikibooks.org/wiki/Ruby_Programming/Strings#Double_quotes), but they're used less often.
 
 ### Bottom Line
 
